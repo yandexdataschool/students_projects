@@ -56,34 +56,55 @@
 Годовой проект
 
 
-## CRAYFIS hot-pixel removal/callibration	
+## CRAYFIS hot-pixel removal/calibration	
 
-Предлагается разработать алгоритм калибровки камеры телефона как детектора космического излучения.
+Работа в рамках проекта [CRAYFIS](http://crayfis.io). Проект использует камеры мобильных телефонов для изучения космического излучения ультра-высоких энергий.
 
-Данные: Rad226 dataset, возможно muon studies	
+Проблема:
+- чувствительность камеры к мюонам неравномерна
+- наличие битых пикселей (hot pixels)
+
+Предлагается разработать алгоритм настройки/калибровки камеры телефона для детектирования космического излучения.
+Задача unsupervised/semi-supervised learning.
+
+Данные: внутренние.
 
 Ссылки:
 
-1. [презентация проекта](https://github.com/yandexdataschool/students_projects_2015/raw/master/CRAYFIS-LAMBDA.pdf)
-2. http://arxiv.org/pdf/1410.2895v1.pdf
+1. [Презентация проекта](https://github.com/yandexdataschool/students_projects_2015/raw/master/CRAYFIS-LAMBDA.pdf)
+2. [Изложение идеи проекта](http://arxiv.org/pdf/1410.2895v1.pdf)
 
-Предлагается использовать EM-based KS hot-pixel removal.
+Необходимые навыки (один из пунктов; зависит от конкретной постановки задачи):
+- Java
+- Scala + Spark MLLib
+- Python + scipy + sklearn
+
+Существует базовое решение.
 
 Полугодовой проект. 
 
-## CRAYFIS efficient shower detection	
 
-Разработать алгоритм распознование вторичных ливней от частиц ультра высоких энергий.
+## CRAYFIS efficient extensive air shower detection
 
-Доступны симулированные данные. 
+Работа в рамках проекта [CRAYFIS](http://crayfis.io). Проект использует камеры мобильных телефонов для изучения космического излучения ультра-высоких энергий (UHECR).
 
-Предлагаемые средства для реализации:
-Likelihood Maximization	Spark MLLib + Elasticsearch / sklearn / caffe	
+Задача supervised learning.
 
-1. [презентация проекта](https://github.com/yandexdataschool/students_projects_2015/raw/master/CRAYFIS-LAMBDA.pdf)
-2. http://arxiv.org/pdf/1410.2895v1.pdf
+Проблема:
+- статистическое восстановление параметров частиц требует существенных вычислительных затрат
 
-Полугодовой проект.
+Предлагается разработать алгоритм определения событий-кандидатов наблюдения UHECR.
+
+Данные: симуляция.
+
+Необходимые навыки (один из пунктов, зависит от конкретной постановки задачи):
+- Scala + Spark MLLib
+- любой инструментарий для ML (sklearn, R, ...)
+
+1. [Презентация проекта](https://github.com/yandexdataschool/students_projects_2015/raw/master/CRAYFIS-LAMBDA.pdf)
+2. [Изложение идеи проекта](http://arxiv.org/pdf/1410.2895v1.pdf)
+
+Годовой проект.
 
 
 ## SkyGrid economics

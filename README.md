@@ -20,6 +20,8 @@
 
 Необходимые навыки: python, scipy stack, sklearn.
 
+Очень близкая задача: https://www.kaggle.com/c/grasp-and-lift-eeg-detection
+
 Годовой проект.
 
 ## Gradient reversal for MC/real data calibration, 

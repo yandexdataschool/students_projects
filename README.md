@@ -30,10 +30,11 @@
 
 Ссылки
 
+0. [презентация проекта](https://github.com/yandexdataschool/students_projects_2015/raw/master/reverse_gradient_1610.pdf)
 1. http://arxiv.org/pdf/1409.7495.pdf	
 2. https://www.kaggle.com/c/flavours-of-physics	
 
-План работы
+План работы:
 
 1. Научиться применять нейросети к классификации событий (код можно взять с Kaggle)
 2. Реализовать код для обращения градиента

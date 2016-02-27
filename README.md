@@ -32,7 +32,8 @@
 
 0. [Презентация](https://github.com/yandexdataschool/students_projects_2015/raw/master/reverse_gradient_1610.pdf)
 1. [Статья о методе](http://arxiv.org/pdf/1409.7495.pdf)
-2. [Данные и код нейросетей](https://www.kaggle.com/c/flavours-of-physics)
+2. [Еще одна статья об аналогичном методе](http://arxiv.org/abs/1511.00830)
+3. [Данные](https://www.kaggle.com/c/flavours-of-physics)
 
 План работы:
 

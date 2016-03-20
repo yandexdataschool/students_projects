@@ -120,6 +120,12 @@
 
 1. http://barbie.uta.edu/~hdfeng/CloudComputing/cloud/cloud16.pdf
 2. http://www.researchgate.net/publication/235953507_Online_cost-efficient_scheduling_of_deadline-constrained_workloads_on_hybrid_clouds
+3.  Про data grid и топологии:
+[https://en.wikipedia.org/wiki/Data_grid](https://en.wikipedia.org/wiki/Data_grid)
+4. Про моделирование:
+SimGrid: [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
+5. Прочее -- см. директорию `skygrid`
+
 
 ## Распознавание спутниковых изображений	
 

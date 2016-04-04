@@ -124,7 +124,8 @@ SimGrid: [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
 
 Миллион телефонов (из миллиардов выпущеных), одновременно сканирующих небо, превращаются в обсерваторию масштабов сравнимым с самыми крупными обсерваториями для наблюдения за UHECR.
 
-Сслыки:
+Ссылки:
+
 1. [Презентация проекта](https://github.com/yandexdataschool/students_projects_2015/raw/master/CRAYFIS-LAMBDA.pdf)
 2. [Изложение идеи проекта](http://arxiv.org/pdf/1410.2895v1.pdf)
 

@@ -159,7 +159,7 @@ SimGrid: [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
 - вычисление статистик и детектирование частиц ультра-высоких энергий.
 
 Необходимые навыки:
-- Scala + Spark MLLib (для очистки данных на сервере)
+- Scala + Spark
 
 ### The Quest for Muons
 

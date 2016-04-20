@@ -1,3 +1,29 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Содержание**
+
+- [Темы проектов лаборатории LAMBDA HSE для студентов](#%D1%82%D0%B5%D0%BC%D1%8B-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B8-lambda-hse-%D0%B4%D0%BB%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
+  - [MLBOX (универсальный классификатор)](#mlbox-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80)
+  - [Нейроинформатика (анализ ЭЭГ)](#%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%8D%D1%8D%D0%B3)
+  - [Gradient reversal for MC/real data calibration](#gradient-reversal-for-mcreal-data-calibration)
+  - [SHiP Tracker](#ship-tracker)
+  - [SkyGrid economics](#skygrid-economics)
+  - [Распознавание спутниковых изображений](#%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D1%85-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9)
+  - [Определение типа частицы по отклику детектора (доступно с января)](#%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D0%B8%D0%BF%D0%B0-%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%D1%8B-%D0%BF%D0%BE-%D0%BE%D1%82%D0%BA%D0%BB%D0%B8%D0%BA%D1%83-%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE-%D1%81-%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8F)
+  - [Оптимизация разбиения данных LHCb](#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-lhcb)
+  - [Реализация автоматического построения ансамбля моделей](#%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9)
+  - [CRAYFIS](#crayfis)
+    - [Hot-pixel removal/calibration](#hot-pixel-removalcalibration)
+    - [CRAYFIS-offline](#crayfis-offline)
+    - [The Quest for Muons](#the-quest-for-muons)
+  - [CMS Anomaly detection](#cms-anomaly-detection)
+    - [Текущее состояние.](#%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5)
+    - [Задача](#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0)
+  - [everware](#everware)
+  - [dexbox - вопросно-ответная система (бот) для сбора информации о специализированном процессе/предметной области](#dexbox---%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BD%D0%BE-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B1%D0%BE%D1%82-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B1%D0%BE%D1%80%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%BE-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%BC-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B5%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Темы проектов лаборатории LAMBDA HSE для студентов 
 
 ## MLBOX (универсальный классификатор)	
@@ -184,8 +210,32 @@ SimGrid: [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
 
 ### Задача
 
-Построит online алгоритм, использующий все stream'ы.
+Построить online алгоритм, использующий все stream'ы.
 
 Необходимые навыки: python, scipy stack, scikit-learn/theanets/keras/lasagne/...
+
+Полугодовой проект
+
+## everware
+
+Reproducibility is a fundamental piece of the scientific method and increasingly complex problems demand ever wider collaboration between scientists. To make research fully reproducible and accessible to collaborators a researcher has to take care of several aspects: research protocol description, data access, preservation of the execution environment, workflow pipeline, and analysis script preservation.
+
+Version control systems like git help with the workflow and analysis scripts part. Virtualization techniques like containers or virtual machines help with sharing execution environments. Jupyter notebooks are a powerful tool to capture the computational narrative of a data analysis project.
+
+Project Everware that seamlessly integrates github/gitlab, Docker and Jupyter helping with a) sharing results of real research and b) boosts education activities. With the help of everware one can not only share the final artifacts of research but all the depth of the research process. This been shown to be extremely helpful during organization of several data analysis hackathons and machine learning schools. Using everware participants could start from an existing solution instead of starting from scratch. They could start contributing immediately. 
+
+Everware allows its users to make use of their own computational resources to run the workflows they are interested in, which enables Everware to scale to large numbers of users.
+
+Everware is supported by the Mozilla science lab and Yandex. It is being evaluated as an option for analysis preservation at LHCb. It is an open-source project that welcomes contributions of all kinds at: https://github.com/everware/everware.
+
+Необходимые навыки: python, tornado, Docker, github, jupyter
+
+Полугодовой проект
+
+## dexbox - вопросно-ответная система (бот) для сбора информации о специализированном процессе/предметной области
+
+Разработка текстового естественно-языкового диалогового интерфейса взаимодействия для автоматизации работы систем узких предметных областях (ERP, CAD, экспертные и консультационные системы, системы анкетирования, системы автоматизации бизнес-процессов и т.п.).
+
+Необходимые навыки: python, nltk
 
 Полугодовой проект

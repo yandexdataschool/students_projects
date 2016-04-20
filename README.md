@@ -20,7 +20,9 @@
     - [Текущее состояние.](#%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5)
     - [Задача](#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0)
   - [everware](#everware)
+    - [Задача](#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1)
   - [dexbox - вопросно-ответная система (бот) для сбора информации о специализированном процессе/предметной области](#dexbox---%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BD%D0%BE-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B1%D0%BE%D1%82-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B1%D0%BE%D1%80%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%BE-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%BC-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B5%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8)
+    - [Задача](#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -228,6 +230,10 @@ Everware allows its users to make use of their own computational resources to ru
 
 Everware is supported by the Mozilla science lab and Yandex. It is being evaluated as an option for analysis preservation at LHCb. It is an open-source project that welcomes contributions of all kinds at: https://github.com/everware/everware.
 
+### Задача
+
+научиться подключать и использовать пользовательские ресурсы для запуска виртуальных машин
+
 Необходимые навыки: python, tornado, Docker, github, jupyter
 
 Полугодовой проект
@@ -235,6 +241,10 @@ Everware is supported by the Mozilla science lab and Yandex. It is being evaluat
 ## dexbox - вопросно-ответная система (бот) для сбора информации о специализированном процессе/предметной области
 
 Разработка текстового естественно-языкового диалогового интерфейса взаимодействия для автоматизации работы систем узких предметных областях (ERP, CAD, экспертные и консультационные системы, системы анкетирования, системы автоматизации бизнес-процессов и т.п.).
+
+### Задача
+
+разработать интерпретатор ответов пользователей на определенные типы вопросов (дата, время, стоимость, месторасположение) с использованием подходов лингвистики и машинного обучения
 
 Необходимые навыки: python, nltk
 

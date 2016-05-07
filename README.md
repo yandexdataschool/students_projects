@@ -10,13 +10,6 @@
   - [Определение типа частицы по отклику детектора (доступно с января)](#%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D0%B8%D0%BF%D0%B0-%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%D1%8B-%D0%BF%D0%BE-%D0%BE%D1%82%D0%BA%D0%BB%D0%B8%D0%BA%D1%83-%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE-%D1%81-%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8F)
   - [Оптимизация разбиения данных LHCb](#%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-lhcb)
   - [Реализация автоматического построения ансамбля моделей](#%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9)
-  - [CRAYFIS](#crayfis)
-    - [Hot-pixel removal/calibration](#hot-pixel-removalcalibration)
-    - [CRAYFIS-offline](#crayfis-offline)
-    - [The Quest for Muons](#the-quest-for-muons)
-  - [CMS Anomaly detection](#cms-anomaly-detection)
-    - [Текущее состояние.](#%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5)
-    - [Задача](#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0)
   - [everware](#everware)
     - [Задача](#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1)
   - [dexbox - вопросно-ответная система (бот) для сбора информации о специализированном процессе/предметной области](#dexbox---%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BD%D0%BE-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B1%D0%BE%D1%82-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B1%D0%BE%D1%80%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%BE-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%BC-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B5%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8)
@@ -167,6 +160,7 @@ SimGrid: [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
 
 Полугодовой проект.
 
+<!--
 ## CRAYFIS
 
 Эксперимент [CRAYFIS](http://crayfis.io) посвящен созданию обсерватории для изучения космического излучения ультра-высоких энергий (UHECR). Подобные частицы крайне редки (1-100 лет на км^2), поэтому, чтобы собрать достаточно статистики для их изучения, требуются либо большие времена наблюдения, либо огромная площадь покрытия детектора. Из-за трудностей в их изучении, они представляют особый интерес для астрофизиков.
@@ -242,6 +236,7 @@ SimGrid: [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
 Необходимые навыки: python, scipy stack, scikit-learn/theanets/keras/lasagne/...
 
 Полугодовой проект
+-->
 
 ## everware
 
